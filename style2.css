@@ -93,16 +93,12 @@
 /* esercizio 10 */
 
 .ex-10-icon {
-  /* animation-name: example;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear; */
-  animation: example 1s infinite linear;
+  animation: loader 1s linear infinite reverse;
 }
 
-@keyframes example {
-  0%   {transform: rotate(360deg);}
-  100% {transform: rotate(0deg);}
+@keyframes loader {
+  0%   {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
 }
 
 /* esercizio 11 */
